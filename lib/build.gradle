@@ -1,0 +1,13 @@
+plugins {
+    id("java-library")
+}
+
+dependencies {
+    implementation("org.flywaydb:flyway-core:9.0.1")
+
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+}
+
+test {
+    useJUnitPlatform()
+}

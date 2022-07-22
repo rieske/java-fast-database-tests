@@ -1,0 +1,8 @@
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = "java-fast-database-tests"
+include(":lib")
